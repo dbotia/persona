@@ -17,3 +17,8 @@ before_script:
     - mysql -u root -e "GRANT ALL ON persona.* TO 'sa'@'localhost';"
 before_install:
   - chmod +x mvnw
+deploy:
+  provider: heroku
+  api-key: 
+    secure: 0429726c-d6d2-441b-a57f-d8c638ad539f
+  app: persona
