@@ -13,7 +13,7 @@ addons:
     - mysql-client-5.6
 before_script:
     - mysql -u root -e 'CREATE DATABASE persona;'
-	- mysql -u root -e "CREATE USER 'sa'@'localhost' IDENTIFIED BY 'sa';"
-	- mysql -u root -e "GRANT ALL ON persona.* TO 'sa'@'localhost';"
+    - mysql -u root -e "CREATE USER 'sa'@'localhost' IDENTIFIED BY 'sa';"
+    - mysql -u root -e "GRANT ALL ON persona.* TO 'sa'@'localhost';"
 before_install:
   - chmod +x mvnw
