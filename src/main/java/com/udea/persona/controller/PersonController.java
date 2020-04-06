@@ -24,16 +24,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-/**
- *
- * @author Lenovo
- */
+
 @RestController
 @RequestMapping("/persona")
 @CrossOrigin("*")
 @Api(value="Employee Management System", description="Operations pertaining to employee in Employee Management System")
 public class PersonController {
-    
     
 @Autowired
 PersonService personService;
