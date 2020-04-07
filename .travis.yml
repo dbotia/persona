@@ -24,4 +24,3 @@ deploy:
   app: persona1
   on:
     repo: dbotia/persona
- 
