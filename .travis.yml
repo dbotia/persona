@@ -21,7 +21,7 @@ deploy:
   provider: heroku
   api-key:
     secure: '0429726c-d6d2-441b-a57f-d8c638ad539f'
-  app: persona1
+  app: persona
   on:
     repo: dbotia/persona
   api_key:
