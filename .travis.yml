@@ -17,10 +17,3 @@ before_script:
 - mysql -u root -e "GRANT ALL ON persona.* TO 'sa'@'localhost';"
 before_install:
 - chmod +x mvnw
-deploy:
-  provider: heroku
-   api_key:
-    secure: BoJ39KLRXXy0eOHgmesjTD2Y8zk18ZS2UCTjuk281tPcLCD8sA3qpAAsNJxjFDxjzTllR95DdVP6SI7fM3obeFMLKBlH2qtPu/xZ6yq2bMXsevIkWlJHUqRICFleJUGIWCq5j8FW8p1fDVp5+Vy0rz8+J2J23Hq3JeJJc3dvIFILZr9LfF+7pi7T/LkvyQ2+RKS2PKg7nebbhDu07jGVSuU+LePv2xSZZT6t1Cr09l3T5n5Q8A+J+xmMNQilcaWMokTsNxkwC3kufNc7OpiKI7qp4yHteLNs5yJZD0nCoUjSKqPawYIe2Z9rjjCmi+xI2HQAU6no+aceHe79cC9db/xBYrJrZ1BV3iyadpP4GuzlMLVyYbCdcjL0BRSxZSuB62myKcG+vNwF5UI0IfzUE/RohB6idDQKH64sJCuqqoLSaOn4de40dBNEKluR73LDqFQ0YDINe0KyC9nBnuUKD1amTwgqxttm61M95eIbkFIPjg4g37DzLCQrzMsNn4hGyRNP7aanr+qmXjFLM515Tu3r0n3lCZWlyg63v9Xy3BVI5h/ueE9RWrOCuVzcgX5SSX2kRV7tG9UBaGB0Itl8kmRizvKjw/JU0Dn8dJjTgAgJ0/snyNVXRRWNIyNg3fDyr5/9Eqbo3pvNxRuuhjGhWT44DIeyX6ACj5EYaUh90Kw=
-  app: persona1
-  on:
-    repo: dbotia/persona
